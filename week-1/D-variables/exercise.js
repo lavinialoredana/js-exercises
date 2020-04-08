@@ -1,3 +1,6 @@
 // Start by creating a variable `greeting`
 
-console.log(greeting);
+var greeting= "Hello from Lavinia from Spain!";
+
+console.log(greeting.repeat(3));
+

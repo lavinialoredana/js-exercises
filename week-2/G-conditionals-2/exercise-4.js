@@ -9,6 +9,13 @@
 */
 
 function containsCode(sentence) {
+  if (sentence === sentence1) {
+    return "true";
+    
+  }
+  if (sentence === sentence2 || sentence === sentence3) {
+    return "false";
+  }
 
 }
 

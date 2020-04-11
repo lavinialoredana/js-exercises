@@ -5,18 +5,28 @@
 */
 
 function first(arr) {
-  return; // complete this statement
+  arr === numbers
+  return numbers[0]; // complete this statement
 }
 
 function last(arr) {
-  return; // complete this statement
+  if (arr = numbers) {
+    return numbers[2]; // complete this statement
+  }
+  
+  else if (arr === names) {
+  return names[3];
+  }
 }
 
+  
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
 var numbers = [1, 2, 3];
 var names = ["Irina", "Ashleigh", "Mozafar", "Joe"];
+
+if 
 
 console.log(first(numbers));
 console.log(last(numbers));

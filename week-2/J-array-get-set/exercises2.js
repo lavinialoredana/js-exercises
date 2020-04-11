@@ -7,7 +7,9 @@
 */
 
 var numbers = [1, 2, 3]; // Don't change this array literal declaration
-
+numbers[3] = 4;
+numbers[0] = 2;
+numbers[1] = 1;
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */

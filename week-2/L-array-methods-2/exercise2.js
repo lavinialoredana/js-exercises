@@ -13,6 +13,7 @@ function capitalise(str) {}
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
 var name = "daniel";
+   
 
 console.log(capitalise(name));
 console.log(capitalise("hello"));

@@ -11,6 +11,15 @@
 */
 
 var startingValue = 5;
+// var result = format((startingValue * 2) + 10 ); 
+
+/*var double=multiply(startingValue,2); 
+var sum=add(double,10);
+var result=format(sum); */
+
+
+var result=format( add(multiply(startingValue, 2), 10 ) );
+
 
 /* DO NOT EDIT BELOW THIS LINE */
 /* --------------------------- */

@@ -11,7 +11,9 @@ function tidyUpString(str) {
 }
 
 var mentors = ["/Daniel ", "irina ", " Gordon", "ashleigh "];
-var mentorsTidy; // ONLY EDIT THIS LINE
+//var Daniel= tidyUpString(mentors[0]);
+
+var mentorsTidy = mentors.map(tidyUpString); // ONLY EDIT THIS LINE
 
 console.log(mentorsTidy);
 
@@ -20,3 +22,11 @@ console.log(mentorsTidy);
   ---------------
   ["daniel", "irina", "gordon", "ashleigh"]
 */
+
+
+   //LEARNING:
+
+ // .MAP is a method that always receives a FUNCTION as a parameter and so it calls the function to each of the items in the Array.
+// one only provides the name of the function ex: tidyUpString, not CALLS it ex: tidyUpString(str)
+
+//var Daniel= tidyUpString(mentors[0])  - this is how you indicate one specific item within an array 

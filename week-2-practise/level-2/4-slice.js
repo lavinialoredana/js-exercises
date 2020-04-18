@@ -16,8 +16,8 @@ console.log(newArr);
 var numbers = [1, 2, 3];
 var names = ["Irina", "Ashleigh", "Mozafar"];
 
-var newNumbers = remove(numbers, 2);
-var newNames = remove(names, 1);
+var newNumbers = numbers.slice(0,2);
+var newNames = names.slice(2, 1);
 
 console.log(newNumbers);
 console.log(newNames);
